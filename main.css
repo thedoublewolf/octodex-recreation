@@ -1,29 +1,32 @@
 .octodex {
-	font-family: arial;
-	font-weight: bold;
-	color: grey;
+	
 }
 
 a {
 	text-decoration: none;
 	color: black;
+	float: left;
+	padding: 10px;
 }
 
 img {
 	border: 1px solid lightgrey;
-	border-radius: 10px;
-	width: 200px;
-	height: 200px;
+	border-radius: 5px;
+	width: 400px;
+	height: 400px;
+	/*margin: 10px;*/
 }
 
 li {
-	float: left;
 	list-style: none;
+	float: left;
 }
 
 
 .octocat {
-
+	font-family: arial;
+	font-weight: bold;
+	color: grey;
 }
 
 .image-footer {
@@ -31,19 +34,26 @@ li {
 }
 
 .image-number {
-
+	color: lightgrey;
+	padding-top: 10px;
+	padding-left: 20px;
 }
 
 .image-caption {
-	
+	float: right;
 }
 
 .authors {
-
+	overflow: hidden;
 }
 
 .authors img {
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
+	margin-left: 0px;
+}
 
+span {
+	float: right;
+	padding: 10px;
 }
