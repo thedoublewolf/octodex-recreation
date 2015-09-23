@@ -1,0 +1,47 @@
+.octodex {
+	font-family: arial;
+	font-weight: bold;
+	color: grey;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+img {
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+}
+
+li {
+	float: left;
+	list-style: none;
+}
+
+
+.octocat {
+	
+}
+
+.image-footer {
+
+}
+
+.image-number {
+
+}
+
+.image-caption {
+	
+}
+
+.authors {
+
+}
+
+.authors img {
+	width: 100px;
+	height: 100px;
+
+}
