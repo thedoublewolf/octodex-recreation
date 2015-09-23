@@ -5,8 +5,6 @@
 a {
 	text-decoration: none;
 	color: black;
-	float: left;
-	padding: 10px;
 }
 
 img {
@@ -14,7 +12,6 @@ img {
 	border-radius: 5px;
 	width: 400px;
 	height: 400px;
-	/*margin: 10px;*/
 }
 
 li {
@@ -27,33 +24,30 @@ li {
 	font-family: arial;
 	font-weight: bold;
 	color: grey;
+	margin: 10px;
 }
 
 .image-footer {
-
 }
 
 .image-number {
 	color: lightgrey;
-	padding-top: 10px;
-	padding-left: 20px;
+	float: left;
+	margin-top: 20px;
 }
 
 .image-caption {
 	float: right;
+	margin-top: 20px;
 }
 
 .authors {
-	overflow: hidden;
+	float: right;
 }
 
 .authors img {
 	width: 30px;
 	height: 30px;
-	margin-left: 0px;
-}
-
-span {
 	float: right;
-	padding: 10px;
+	border: none;
 }
